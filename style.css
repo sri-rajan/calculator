@@ -1,0 +1,38 @@
+.container{
+    width:350px;
+    margin:0 auto;
+    border:3px solid black;
+    background-color:skyblue;
+}
+#display{
+    display:block;
+    width:100%;
+    height:40px;
+    font-size:2em;
+    padding:25px 5px;
+    background-color:plum;
+}
+#buttons{
+    display:inline-flex;
+    flex-wrap: wrap;
+    padding:10px;
+}
+button{
+    width:60px;
+    height:60px;
+    color:white;
+    background-color:pink;
+    margin:3px 10px;
+    border-radius: 50%;
+    font-size: 2em;
+}
+.but{
+    background-color: greenyellow;
+    font-size:2.5em;
+}
+#green{
+    background-color: greenyellow;
+}
+#blue{
+    background-color:rgb(0, 149, 255);
+}
